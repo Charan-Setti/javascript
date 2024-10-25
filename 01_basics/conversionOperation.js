@@ -36,7 +36,7 @@ boolean to Number:
 let isLoggedIn = undefined
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /*
 
@@ -52,6 +52,46 @@ Boolean to Other type:
 let number = 45.9
 
 let stringNumber = String(number)
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
+
+
+// **************** Operations **************** //
+
+let value = 4
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "hello"
+let str2 = " charan"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(3 + 4 * 5 % 3);
+
+// console.log(+true); // 1
+// // console.log(true+); // error
+// console.log(+""); // 0
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+// ++gameCounter;
+
+console.log(gameCounter);
 
