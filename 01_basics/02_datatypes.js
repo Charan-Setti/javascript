@@ -5,7 +5,7 @@
 let name = 'charan'
 let age = 18
 let isLoggedIn = false
-
+let city = "Hyderabad"
 // number 
 // bigint 
 
