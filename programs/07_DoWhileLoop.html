@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Do While Loop Example
+        </title>
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript">
+            let actual_pin = 3496;
+            let count = 0;
+            let pin;
+            do{
+                pin = prompt("Enter your pin:");
+                count++;
+            }while(pin != actual_pin && count < 3);
+            if(pin == actual_pin){
+                document.write("Welcome to your account");                
+            }
+            else{
+                document.write("Your account is blocked");
+            }
+        </script>
+    </body>
+</html>

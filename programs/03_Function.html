@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>functions demo</title>
+        <script language="javascript" type="text/javascript">
+            function sayHello(name, age){
+                if (name == "" || age == ""){
+                    document.write("enter name and age");
+                }
+                
+                else{
+                    if (age >=18){
+                        document.write("Hi " + name + " your age is " + age + " you are eligible for voter id");
+                    }
+                    else{
+                        document.write("Hi " + name + " your age is less than 18 you are not eligible for voter id")
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p> Click the following button to call the function</p>
+        <form>
+            <input name="t1" placeholder="Enter Name"/><br/>
+            <input name="t2" placeholder="Enter Ange"/><br/>
+            <input type="button" onclick="sayHello(t1.value,t2.value)" value="Say Hello"/>
+        </form>
+    </body>
+</html>

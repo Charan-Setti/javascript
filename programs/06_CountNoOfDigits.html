@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Counting No.of Digits in a given number</title>
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript">
+            let count = 0;
+            let number = parseInt(prompt("Enter a number: "));
+            num = number;
+            while(number>0){
+                number = Math.trunc(number/10);
+                count++;
+            }
+            document.write("The "+num+" have "+count+" digits");
+        </script>
+    </body>
+</html>
