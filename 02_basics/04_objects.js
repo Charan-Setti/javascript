@@ -51,3 +51,34 @@ console.log(Object.values(user));
 console.log(Object.entries(user));
 
 console.log(user.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename : "Js",
+    price: "499",
+    coursementor: "John"
+}
+
+// course.mentor 
+const {coursementor: mentor} = course 
+// console.log(coursementor);
+console.log(mentor);
+
+/*
+
+1. To extract value from object => const {keyname} = object name;
+2. To rename keyname for using more times => const {keyname: new name } = object name;
+3. JSON is a collection of key-value pairs just like object and a JSON array is an ordered list of value.
+
+*/
+
+// {
+//     "name": "Charan",
+//     "coursename": "Js",
+//     "price": "344"
+// }
+
+[
+    {},
+    {},
+    {}
+]
