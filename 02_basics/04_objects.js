@@ -74,7 +74,7 @@ console.log(mentor);
 // {
 //     "name": "Charan",
 //     "coursename": "Js",
-//     "price": "344"
+//     "price": "349"
 // }
 
 [
@@ -82,3 +82,7 @@ console.log(mentor);
     {},
     {}
 ]
+
+
+
+
